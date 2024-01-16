@@ -23,7 +23,7 @@ export default function BaseButton({
   loadingState,
   disabled,
 }: Props) {
-  const buttonClassName = `px-8 text-center py-4 shadow-2xl cursor-pointer active:scale-90 transition duration
+  const buttonClassName = `px-8 text-center bg-blue-500 py-4 shadow-2xl cursor-pointer active:scale-90 transition duration
   ${borderRadius === "small" ? "rounded-lg" : "rounded-full"}
   ${width === "32" ? "w-32" : "w-64"}
   ${className}
